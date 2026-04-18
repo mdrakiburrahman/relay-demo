@@ -5,9 +5,9 @@ Two Python apps — `server.py` (cloud-side listener) and `client.py` (local sen
 ## 1. One-time Azure setup (PowerShell)
 
 ```powershell
-$SUB  = "ce859648-30e1-4135-9d0f-8358aebfe789"
-$RG   = "arc-dev-relay"
-$NS   = "mdrrahman-dev-relay"
+$SUB  = ".."
+$RG   = "..."
+$NS   = "..."
 $HC   = "demo"
 $RULE = "demo-listen-send"
 
